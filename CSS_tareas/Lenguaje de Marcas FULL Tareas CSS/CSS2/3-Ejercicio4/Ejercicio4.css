@@ -1,0 +1,10 @@
+ .primero {font-style: italic; font-weight:bold}
+.fondo{background-color: #33FFF8; color: blue}
+.fondo2{background-color: #33FFF8;background-position:}
+.fondo3{ background-color: #FEC9F7; color: white; border-color:green; height:60px; border-style:solid; }
+.estilo{font-style: italic; color:blue; font-weight: bold}
+.fondo4 {background-color: #A21F90; color:#FEC9F7}
+table { width: 100%; border: 1px solid black;}
+td {border: 1px solid black;}
+tr { height:100px}
+.fondo5{background-color: #A21F90}

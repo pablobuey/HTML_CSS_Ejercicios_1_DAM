@@ -1,0 +1,58 @@
+<!DOCTYPEhtml>
+
+<html lang="es">
+<head>
+<title>ejemplo</title>
+<style> 
+.title {color: #FFA833; font-size: 200%;}
+#caja { width: 310px; height: 60px; background-color: grey; color: white }
+#caja2 { width: 310px; height: 90px; background-color: grey; color: white; position: absolute; ; bottom: 64%; right: 26%}
+#caja3 { background-color: white; width: 541px; height: 90px; color: grey; position: absolute; ; bottom: 56%; right: 47%}
+#caja4 { background-color: black; color:white;  width: 433px; height: 90px; color: white; position: absolute; ; bottom: 48%; left: 50px}
+#caja5 {  position: absolute; bottom: 44%; left: 0}
+#caja6 { background-color: green; color:black;  width: 150px; height: 100x; color: white; position: fixed; ; bottom: 0; right: 0px}
+#caja7 { background-color: black; color:white;  width: 360px; height: 90px; color: white; position: absolute; ; bottom: 27%; left: 50px}
+#caja8 {  position: absolute; bottom: 20%; left: 0}
+#caja9 {  position: absolute; bottom: 15%; left: 0}
+</style>
+
+<body>
+<p><span class="title">Static:</span> es el posicionamiento por defecto, según el flujo normal del HTML.</p>
+<p><span style="background-color: black; color: white">Capa con posicionamiento static </p></span>
+<h1>Otra capa static:</h1>
+<div id="caja">
+<p>Esta capa también tiene posicionamiento static <br>aunque no se haya <br> especificado pues es el valor por defecto. </p>
+</div>
+<p><span class="title">Absolute:</span> es el posicionamiento según las distancias especificadas a traves de atributos top left right.</p>
+
+<div id="caja2">
+<p>Esta capa también tiene posicionamiento static <br>aunque no se haya <br> especificado pues es el valor por defecto. </p>
+</div>
+
+<div id="caja3">
+<p>Caja con posicionamiento absolute y se verá bajo otras capas con z-index mayores. </p>
+</div>
+
+<div id="caja5">
+<p><span class="title">Relative:</span> es el posicionamiento según las distancias especificadas a traves de atributos top left right.</p>
+</div>
+<div id="caja4">
+<p>Caja con posicionamiento absolute y se verá bajo otras capas con z-index mayores. </p>
+</div>
+
+<div id="caja6">
+<p>Fija en la esquina inferior</p>
+</div>
+
+<div id="caja7">
+<p>Caja relativa separada 100 del parrafo anterior y 40 de la izquierda. </p>
+</div>
+<div id="caja8">
+<p><span class="title">Fixed:</span> es el posicionamiento según las distancias especificadas a traves de atributos top left right.</p>
+</div>
+<div id="caja9">
+<p><span class="title">Inherit:</span> es el posicionamiento según las distancias especificadas a traves de atributos top left right.</p>
+</div>
+</body>
+
+</html>

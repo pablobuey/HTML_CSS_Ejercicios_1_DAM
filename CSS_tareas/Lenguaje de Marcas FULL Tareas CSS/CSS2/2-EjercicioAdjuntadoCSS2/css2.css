@@ -1,0 +1,9 @@
+
+body {background-color: yellow; font-family: Georgia, Cambria, Serif; font-size: 16px;}
+h1 {color: brown; font-family: Verdana, Calibri, sans-serif; font-size: 32px;} 
+
+.sust {font-size: 20px; font-weight: bold;}
+.blue { background-color: blue;}
+.pink { background-color: pink;}
+.red { background-color: red;}
+.cuadros {border-style: double;}
